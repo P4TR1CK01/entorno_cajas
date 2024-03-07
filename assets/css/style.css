@@ -1,0 +1,32 @@
+.container {
+    width: 800px;
+    botder: 5px solid black;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: "Kode Mono", monospace;
+}
+h2 {
+    text-align: center;
+}
+.caja {
+    width: 300px;
+    border: 2px solid black;
+    background-color: orange;
+    margin: 1rem;
+}
+#caja-2 {
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+}
+#caja-4 {
+    position: absolute;
+    top: 1rem;
+    left: 20rem;
+}
+#caja-5 {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+/* static, relative, absolute, fixed */
